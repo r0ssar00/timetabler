@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6715C6CE0F01CAF20049A960 /* DebugDataStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6715C6CD0F01CAF20049A960 /* DebugDataStore.cpp */; };
+		671A75540F13C29F00408EF5 /* StdioDataStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 671A75530F13C29F00408EF5 /* StdioDataStore.cpp */; };
+		673B8EA70EFC392200465364 /* TerminalFrontend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 673B8EA60EFC392200465364 /* TerminalFrontend.cpp */; };
+		67435AA20EF9D4AF00211478 /* libical.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67435A740EF9D4AE00211478 /* libical.a */; };
+		67435AA30EF9D4AF00211478 /* libicalss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67435A750EF9D4AE00211478 /* libicalss.a */; };
+		67435AD50EF9D4EC00211478 /* libical.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67435AD30EF9D4EC00211478 /* libical.a */; };
+		67435AD60EF9D4EC00211478 /* libicalss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67435AD40EF9D4EC00211478 /* libicalss.a */; };
+		67435B870EFACBBD00211478 /* libpme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67435B830EFACBBD00211478 /* libpme.a */; };
+		67435B880EFACBBD00211478 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67435B840EFACBBD00211478 /* libpcre.a */; };
+		67435B890EFACBBD00211478 /* libpcrecpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67435B850EFACBBD00211478 /* libpcrecpp.a */; };
+		67435B8A0EFACBBD00211478 /* libpcreposix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67435B860EFACBBD00211478 /* libpcreposix.a */; };
+		67435BE50EFAD3CD00211478 /* InfoWebDataStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67435BE40EFAD3CD00211478 /* InfoWebDataStore.cpp */; };
+		6745A9CA0EF8300900A64D0A /* TimetableConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6745A9C90EF8300900A64D0A /* TimetableConverter.cpp */; };
+		6745AAC60EF856C700A64D0A /* FileDataStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6745AAC50EF856C700A64D0A /* FileDataStore.cpp */; };
+		67A3CB830EF7064100A40E33 /* Class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67A3CB820EF7064100A40E33 /* Class.cpp */; };
+		67A3CB880EF7065B00A40E33 /* Course.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67A3CB870EF7065B00A40E33 /* Course.cpp */; };
+		67A3CB8A0EF7066600A40E33 /* Timetable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67A3CB890EF7066600A40E33 /* Timetable.cpp */; };
+		67FA20C80F154FDB003894C9 /* RabaskaDataStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67FA20C70F154FDB003894C9 /* RabaskaDataStore.cpp */; };
+		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		8DD76F6A0486A84900D96B5E /* Timetabler.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* Timetabler.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* Timetabler.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6715C6CC0F01CAE80049A960 /* DebugDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugDataStore.h; sourceTree = "<group>"; };
+		6715C6CD0F01CAF20049A960 /* DebugDataStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DebugDataStore.cpp; sourceTree = "<group>"; };
+		671A75520F13C29100408EF5 /* StdioDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdioDataStore.h; sourceTree = "<group>"; };
+		671A75530F13C29F00408EF5 /* StdioDataStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StdioDataStore.cpp; sourceTree = "<group>"; };
+		673B8EA60EFC392200465364 /* TerminalFrontend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TerminalFrontend.cpp; sourceTree = "<group>"; };
+		673B8EA80EFC393A00465364 /* TerminalFrontend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerminalFrontend.h; sourceTree = "<group>"; };
+		673B8EAB0EFC397100465364 /* Frontend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Frontend.h; sourceTree = "<group>"; };
+		67435A740EF9D4AE00211478 /* libical.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libical.a; sourceTree = "<group>"; };
+		67435A750EF9D4AE00211478 /* libicalss.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicalss.a; sourceTree = "<group>"; };
+		67435AD30EF9D4EC00211478 /* libical.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libical.a; sourceTree = "<group>"; };
+		67435AD40EF9D4EC00211478 /* libicalss.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicalss.a; sourceTree = "<group>"; };
+		67435B830EFACBBD00211478 /* libpme.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpme.a; sourceTree = "<group>"; };
+		67435B840EFACBBD00211478 /* libpcre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpcre.a; sourceTree = "<group>"; };
+		67435B850EFACBBD00211478 /* libpcrecpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpcrecpp.a; sourceTree = "<group>"; };
+		67435B860EFACBBD00211478 /* libpcreposix.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpcreposix.a; sourceTree = "<group>"; };
+		67435BE30EFAD3C200211478 /* InfoWebDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoWebDataStore.h; sourceTree = "<group>"; };
+		67435BE40EFAD3CD00211478 /* InfoWebDataStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InfoWebDataStore.cpp; sourceTree = "<group>"; };
+		6745A9C90EF8300900A64D0A /* TimetableConverter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = TimetableConverter.cpp; sourceTree = "<group>"; };
+		6745A9CB0EF8301600A64D0A /* TimetableConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimetableConverter.h; sourceTree = "<group>"; };
+		6745AA5C0EF84B0900A64D0A /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
+		6745AAC40EF856B900A64D0A /* FileDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDataStore.h; sourceTree = "<group>"; };
+		6745AAC50EF856C700A64D0A /* FileDataStore.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = FileDataStore.cpp; sourceTree = "<group>"; };
+		6745AD5C0EF8812400A64D0A /* Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.h; path = ../include/Prefix.h; sourceTree = "<group>"; };
+		6745AF1A0EF88E0100A64D0A /* Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date.h; sourceTree = "<group>"; };
+		6789A3B40EFD9CC0002AAA4F /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		67A3CB7E0EF7060600A40E33 /* Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Class.h; sourceTree = "<group>"; };
+		67A3CB7F0EF7061100A40E33 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		67A3CB810EF7062700A40E33 /* Timetable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timetable.h; sourceTree = "<group>"; };
+		67A3CB820EF7064100A40E33 /* Class.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Class.cpp; sourceTree = "<group>"; };
+		67A3CB870EF7065B00A40E33 /* Course.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Course.cpp; sourceTree = "<group>"; };
+		67A3CB890EF7066600A40E33 /* Timetable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Timetable.cpp; sourceTree = "<group>"; };
+		67FA20C60F154FCB003894C9 /* RabaskaDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RabaskaDataStore.h; sourceTree = "<group>"; };
+		67FA20C70F154FDB003894C9 /* RabaskaDataStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RabaskaDataStore.cpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* Timetabler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Timetabler; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E8B029090EE04C91782 /* Timetabler.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Timetabler.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67435AA20EF9D4AF00211478 /* libical.a in Frameworks */,
+				67435AA30EF9D4AF00211478 /* libicalss.a in Frameworks */,
+				67435AD50EF9D4EC00211478 /* libical.a in Frameworks */,
+				67435AD60EF9D4EC00211478 /* libicalss.a in Frameworks */,
+				67435B870EFACBBD00211478 /* libpme.a in Frameworks */,
+				67435B880EFACBBD00211478 /* libpcre.a in Frameworks */,
+				67435B890EFACBBD00211478 /* libpcrecpp.a in Frameworks */,
+				67435B8A0EFACBBD00211478 /* libpcreposix.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* Timetabler */ = {
+			isa = PBXGroup;
+			children = (
+				673B8EA20EFC385F00465364 /* frontends */,
+				67D730930EF8B7CC00F73C52 /* src */,
+				67D730940EF8B7E200F73C52 /* include */,
+				67D7308E0EF8B6BF00F73C52 /* libtimetable */,
+				67A027980EF937E000C4BB6D /* libdatastore */,
+				6745B0AF0EF8B0FC00A64D0A /* libxml */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				67435A470EF9D4AE00211478 /* libs */,
+			);
+			name = Timetabler;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				67A3CB820EF7064100A40E33 /* Class.cpp */,
+				67A3CB870EF7065B00A40E33 /* Course.cpp */,
+				67A3CB890EF7066600A40E33 /* Timetable.cpp */,
+				6745A9C90EF8300900A64D0A /* TimetableConverter.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* Timetabler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		673B8EA20EFC385F00465364 /* frontends */ = {
+			isa = PBXGroup;
+			children = (
+				673B8EA40EFC387500465364 /* include */,
+				673B8EA30EFC387000465364 /* src */,
+			);
+			path = frontends;
+			sourceTree = "<group>";
+		};
+		673B8EA30EFC387000465364 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				673B8EA60EFC392200465364 /* TerminalFrontend.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		673B8EA40EFC387500465364 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				673B8EAB0EFC397100465364 /* Frontend.h */,
+				673B8EA80EFC393A00465364 /* TerminalFrontend.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		67435A470EF9D4AE00211478 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				67435B830EFACBBD00211478 /* libpme.a */,
+				67435B840EFACBBD00211478 /* libpcre.a */,
+				67435B850EFACBBD00211478 /* libpcrecpp.a */,
+				67435B860EFACBBD00211478 /* libpcreposix.a */,
+				67435AD30EF9D4EC00211478 /* libical.a */,
+				67435AD40EF9D4EC00211478 /* libicalss.a */,
+				67435A740EF9D4AE00211478 /* libical.a */,
+				67435A750EF9D4AE00211478 /* libicalss.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		6745B0AF0EF8B0FC00A64D0A /* libxml */ = {
+			isa = PBXGroup;
+			children = (
+				6745B0B10EF8B10A00A64D0A /* src */,
+				6745B0B00EF8B10300A64D0A /* include */,
+			);
+			path = libxml;
+			sourceTree = "<group>";
+		};
+		6745B0B00EF8B10300A64D0A /* include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		6745B0B10EF8B10A00A64D0A /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		67A027980EF937E000C4BB6D /* libdatastore */ = {
+			isa = PBXGroup;
+			children = (
+				67A0279B0EF937F200C4BB6D /* include */,
+				67A027990EF937E600C4BB6D /* src */,
+			);
+			path = libdatastore;
+			sourceTree = "<group>";
+		};
+		67A027990EF937E600C4BB6D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6745AAC50EF856C700A64D0A /* FileDataStore.cpp */,
+				67435BE40EFAD3CD00211478 /* InfoWebDataStore.cpp */,
+				6715C6CD0F01CAF20049A960 /* DebugDataStore.cpp */,
+				671A75530F13C29F00408EF5 /* StdioDataStore.cpp */,
+				67FA20C70F154FDB003894C9 /* RabaskaDataStore.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		67A0279B0EF937F200C4BB6D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				6745AA5C0EF84B0900A64D0A /* DataStore.h */,
+				6745AAC40EF856B900A64D0A /* FileDataStore.h */,
+				67435BE30EFAD3C200211478 /* InfoWebDataStore.h */,
+				6715C6CC0F01CAE80049A960 /* DebugDataStore.h */,
+				671A75520F13C29100408EF5 /* StdioDataStore.h */,
+				67FA20C60F154FCB003894C9 /* RabaskaDataStore.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		67A3CB7B0EF705DE00A40E33 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				67A3CB7E0EF7060600A40E33 /* Class.h */,
+				67A3CB7F0EF7061100A40E33 /* Course.h */,
+				67A3CB810EF7062700A40E33 /* Timetable.h */,
+				6745A9CB0EF8301600A64D0A /* TimetableConverter.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		67D7308E0EF8B6BF00F73C52 /* libtimetable */ = {
+			isa = PBXGroup;
+			children = (
+				6745AD5C0EF8812400A64D0A /* Prefix.h */,
+				67A3CB7B0EF705DE00A40E33 /* include */,
+				08FB7795FE84155DC02AAC07 /* src */,
+			);
+			path = libtimetable;
+			sourceTree = "<group>";
+		};
+		67D730930EF8B7CC00F73C52 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		67D730940EF8B7E200F73C52 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				6745AF1A0EF88E0100A64D0A /* Date.h */,
+				6789A3B40EFD9CC0002AAA4F /* Common.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* Timetabler.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* Timetabler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "Timetabler" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timetabler;
+			productInstallPath = "$(HOME)/bin";
+			productName = Timetabler;
+			productReference = 8DD76F6C0486A84900D96B5E /* Timetabler */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Timetabler" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* Timetabler */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* Timetabler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+				67A3CB830EF7064100A40E33 /* Class.cpp in Sources */,
+				67A3CB880EF7065B00A40E33 /* Course.cpp in Sources */,
+				67A3CB8A0EF7066600A40E33 /* Timetable.cpp in Sources */,
+				6745A9CA0EF8300900A64D0A /* TimetableConverter.cpp in Sources */,
+				6745AAC60EF856C700A64D0A /* FileDataStore.cpp in Sources */,
+				67435BE50EFAD3CD00211478 /* InfoWebDataStore.cpp in Sources */,
+				673B8EA70EFC392200465364 /* TerminalFrontend.cpp in Sources */,
+				6715C6CE0F01CAF20049A960 /* DebugDataStore.cpp in Sources */,
+				671A75540F13C29F00408EF5 /* StdioDataStore.cpp in Sources */,
+				67FA20C80F154FDB003894C9 /* RabaskaDataStore.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/libs\"",
+				);
+				PRODUCT_NAME = Timetabler;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/libs\"",
+				);
+				PRODUCT_NAME = Timetabler;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = include/Prefix.h;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include;
+				LIBRARY_SEARCH_PATHS = /usr/lib/;
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx10.5;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = /Users/r0ssar00/Development/Builds/Timetabler;
+				USER_HEADER_SEARCH_PATHS = "libdatastore/include/ libtimetable/include/ libxml/include/";
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = include/Prefix.h;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include;
+				LIBRARY_SEARCH_PATHS = /usr/lib/;
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx10.5;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				USER_HEADER_SEARCH_PATHS = "libdatastore/include/ libtimetable/include/ libxml/include/";
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "Timetabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Timetabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

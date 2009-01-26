@@ -1,0 +1,9 @@
+Timetablerprgdir=../..
+bin_PROGRAMS=Timetabler
+Timetabler_SOURCES=main.cpp
+Timetabler_CPPFLAGS=-I/usr/include/ 
+Timetabler_LDFLAGS=-lstdc++ -lpme
+noinst_HEADERS=../include/Date.h ../include/Common.h
+AM_CFLAGS=-I/usr/include/** 
+AM_LDFLAGS=-lstdc++
+LDADD=../frontends/src/libfrontend.a ../libdatastore/src/libdatastore.a ../libtimetable/src/libtimetable.a
