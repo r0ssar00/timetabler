@@ -3,7 +3,7 @@
  *  Timetabler
  *
  *  Created by Kevin Ross on 20/12/08.
- *  Copyright 2008 uOttawa. All rights reserved.
+ *  Copyright 2008 Kevin Ross. All rights reserved.
  *
  */
 
